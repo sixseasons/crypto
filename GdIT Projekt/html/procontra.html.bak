@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Julia Apars, Mara Buchwald, Sebastian Paape" />	
+        <title>Kryptowährungen</title>
+        <link href="../css/crypto.css" rel="stylesheet" type="text/css">
+    </head>
+    
+    <body>
+		<!-- https://www.w3schools.com/howto/howto_css_topnav_right.asp-->
+        <div class="topnav">
+		            <a href="../crypto.html" class="button">Startseite</a>
+                    <a href="investieren.html" class="button">Investieren</a>
+                    <a href="aktuelles.html" class="button">Aktuelles</a>
+        </div>    
+             
+        <br> <br> <br>
+        <div class="btn-group">
+            <div class="tabs-auswahl">
+                <a href="#" class="button-clicked">Vor- und Nachteile</a>
+                <a href="top5.html" class="button">Top 5</a>
+                <a href="blockchain.html" class="button">Die Blockchain</a>
+                <a href="/tab" class="button">Tab 4</a>
+                <a href="/tab" class="button">Tab 5</a>
+            </div>
+        </div>
+		
+
+				
+
+		    <div class="card-anzeige">
+				<center><h2>Vor- und Nachteile von Kryptowährungen</h2></center>
+				<!-- https://wiki.selfhtml.org/wiki/HTML/Tabellen/Gestaltung_mit_CSS/table-layout-->
+                <table style="table-layout:fixed">
+                    <thead class="plusminus">
+                        <tr>
+                            <td>+</td>
+							<td>-</td>
+                        </tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								Möglichkeit enorme Gewinne zu erzielen
+								<br>→ Investitionsmöglichkeit 
+							</td>
+							
+							<td>
+								anfällig für Kursschwankungen, da sie nicht von der
+								Börsenaufsicht oder Einlagensicherungsfonds gesichert werden
+							</td>
+						</tr>
+						
+						<tr>							
+							<td>
+								bargeldlosen Zahlungsverkehr ohne die Abhängigkeit, Aufsicht
+								oder Mitwirkung von Banken und Behörden
+								<br>→ von Privatleuten generiert und verwaltet 
+							</td>
+							
+							<td>
+								sehr hoher Stromverbrauch u.a. für das Schürfen der
+								Kryptowährungen (Mining)
+								<br>→ Alleine die Erzeugung und Nutzung von Bitcoins, haben
+								einen höheren Stromverbrauch pro Jahr als die gesamten Niederlande
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								Transaktionen finden schnell und nur unter der Erhebung von geringen
+								bis keinen Gebühren statt
+							</td>
+							
+							<td>
+								gerade für Anfänger sehr kompliziert, da für verschiedene
+								Kryptowährungen verschiedene Regeln gelten
+							</td>
+						</tr>
+						
+						<tr>							
+							<td>
+								gelten als sehr manipulationssicher auf Grund von Blockchain (oder
+								ähnlicher Ledger) Technologie
+							</td>
+							
+							<td>
+								sind nur digital vorhanden → wird der eigene Zugangsschlüssel verloren
+								oder das Wallet gelöscht gibt es kaum Möglichkeiten das digitale Geld
+								wiederzubekommen
+							</td>
+						</tr>											
+						
+						<tr>							
+							<td>
+								weltweit und für jeden nutzbar (auch für Personen die eigentlich nicht
+								die Standards zur Eröffnung eines Kontos erfüllen)
+							</td>
+							
+							<td>
+								gibt es keinen Zugang zum Internet so können auch keine Transaktionen
+								getätigt werden
+							</td>
+						</tr>
+
+						<tr>							
+							<td>
+								keine Wechelkursgebühren und kaum Inflationsgefahr
+							</td>
+							
+							<td>
+								keine Rückbuchungen möglich (fatal bei Betrug)
+							</td>
+						</tr>
+
+						<tr>							
+							<td>
+								Hohe Anonymität
+							</td>
+							
+							<td>
+								viele kriminelle Machenschaften werden durch Kryptowährungen finanziert,
+								da Personen anonymisiert sind und Zahlungen schwer zurückzuverfolgen sind
+							</td>
+						</tr>						
+					</tbody>
+                </table>
+
+				<br> <br> <br>
+				
+				Hier geht es weiter zum Artikel: <a href="blockchain.html">Die Blockchain</a>
+            </div>
+
+                            
+        
+    
+
+		<footer id="bottom">
+			<a href="impressum.html" class="button">Impressum</a>
+            <a href="datenschutz.html" class="button">Datenschutz</a>
+		</footer>
+    </body>
+</html>

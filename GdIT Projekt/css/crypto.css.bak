@@ -1,0 +1,168 @@
+html {
+    background-color: rgb(155, 186, 217);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*https://www.html-seminar.de/sticky-footer-fussleiste-ganz-unten.htm*/
+/* https://www.w3schools.com/w3css/w3css_buttons.asp*/
+/* https://www.w3schools.com/css/css_border.asp */
+
+.card-anzeige {
+    min-width: 61rem;
+	max-width: 61rem;
+    margin: 0.5rem;
+    padding: 2rem;
+	padding-bottom: 2rem;
+    background-color: white;
+    text-align: left;
+    float: left;
+}
+
+.card-anzeige table, tr, td {
+
+	border-collapse: collapse;
+	vertical-align: top;
+	padding: 0.7em 0.5em;
+}
+
+.card-anzeige table {
+	width: 100%;
+}
+
+.card-anzeige td {
+	overflow: hidden;
+	vertical-align: top;
+}
+/*https://wiki.selfhtml.org/wiki/HTML/Tabellen/Gestaltung_mit_CSS*/
+.card-anzeige tr:nth-child(even) { 
+	background-color: #E9EFF6; 
+	color: #000; 
+}
+
+.card-anzeige .plusminus {
+	font-size: 20px;
+	text-align: center;
+}
+
+.card-anzeige img {
+	width: 50px;
+	height: 50px;
+	margin: 2rem;
+}
+
+.tabs-auswahl{
+    max-width: 13vw;
+    margin: 0.5rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0px;
+    text-align: center;
+    float: left;
+}
+
+
+.btn-group .button {
+    background-color: #9BBAD9;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    width: 80%;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-clicked {
+	background-color: #0B2161;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    width: 80%;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+}
+
+
+.btn-group .button:hover {
+  background-color: #0B2161;
+}
+
+/*https://www.w3schools.com/css/css_navbar.asp */
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+	margin-top: 7px
+}
+  
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    padding: 18px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+
+.topnav-clicked {
+	padding: 18px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #0B2161;
+    color: white;
+}
+
+
+
+.border {
+  border-bottom: solid;
+  color: white;
+
+}
+
+
+div.a {
+    font-size: 25px;
+    color: white;
+	text-align: left;
+	padding-left: 20rem;
+  }
+
+
+
+footer {
+  overflow: hidden;
+  margin-top: 34rem;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2em;
+}
+
+footer a {
+	display: inline-block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+	vertical-align: bottom;
+}
+
+
+  
