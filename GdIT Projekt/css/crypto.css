@@ -50,6 +50,12 @@ html {
 	margin: 2rem;
 }
 
+.card-anzeige .bild {
+	width: auto;
+	height: auto;
+	margin: 2rem;
+}
+
 .tabs-auswahl{
     max-width: 13vw;
     margin: 0.5rem auto;
