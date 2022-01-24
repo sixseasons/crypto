@@ -50,10 +50,16 @@ html {
 	margin: 2rem;
 }
 
-.card-anzeige .bild {
-	width: auto;
+.card-anzeige .bild-chain {
+	min-width: 93%;
+	max-width: 100%;
 	height: auto;
 	margin: 2rem;
+}
+
+.card-anzeige .bild {
+	max-width: 200px;
+	max-height: 100px;
 }
 
 .tabs-auswahl{
