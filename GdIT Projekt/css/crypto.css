@@ -8,14 +8,13 @@ html {
 /* https://www.w3schools.com/css/css_border.asp */
 
 .card-anzeige {
-    min-width: 61rem;
-	max-width: 61rem;
-    margin: 0.5rem;
+    min-width: 10rem;
+	max-width: 61.4rem;
+    margin: 0.5rem auto;
     padding: 2rem;
 	padding-bottom: 2rem;
     background-color: white;
     text-align: left;
-    float: left;
 }
 
 .card-anzeige table, tr, td {
@@ -62,16 +61,30 @@ html {
 	max-height: 100px;
 }
 
+/*https://www.w3schools.com/Css/css_positioning.asp*/
+
 .tabs-auswahl{
-    max-width: 13vw;
+	position: sticky;
+	top: 0;
+	left: 0px;
+	min-width: 10.15vw;
+    max-width: 10.15vw;
     margin: 0.5rem auto;
     padding: 2rem;
     background-color: white;
-    border-radius: 0px;
-    text-align: center;
-    float: left;
+	float: left;
 }
 
+.tabs-auswahl-rechts{
+	position: sticky;
+	top: 0;
+	min-width: 10.15vw;
+    max-width: 10.15vw;
+    margin: 0.5rem auto;
+    padding: 2rem;
+    background-color: white;
+    float: right;
+}
 
 .btn-group .button {
     background-color: #9BBAD9;
@@ -142,12 +155,6 @@ html {
 
 
 
-.border {
-  border-bottom: solid;
-  color: white;
-
-}
-
 
 div.a {
     font-size: 25px;
@@ -160,7 +167,7 @@ div.a {
 
 footer {
   overflow: hidden;
-  margin-top: 34rem;
+  margin-top: 3rem;
   text-align: center;
   bottom: 0;
   width: 100%;
